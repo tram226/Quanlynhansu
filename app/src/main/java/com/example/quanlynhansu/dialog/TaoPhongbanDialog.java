@@ -58,7 +58,6 @@ public class TaoPhongbanDialog extends Dialog implements View.OnClickListener {
                 PhongbanDao dao = new PhongbanDao(context);
                 dao.insert(pbs);
 
-
                 // hiển thị thông báo cho người dùng đã được lưu
                 Toast.makeText(context, "Phòng ban đã được lưu", Toast.LENGTH_SHORT).show();
                 // đóng hộp thoại sau khi được lưu xong
